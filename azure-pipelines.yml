@@ -1,5 +1,12 @@
+trigger:
+- master
 
-    
+pool:
+  yaImage: "ubuntu-latest" 
+
+  steps:
+
+  
 - task: CmdLine@2
   inputs:
     script: |
